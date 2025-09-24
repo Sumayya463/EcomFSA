@@ -5,6 +5,9 @@ import Hero from './pages/Hero';
 import { Routes, Route } from 'react-router-dom';
 import Login from './pages/login';
 import Register from './pages/register';
+import Cart from './pages/cart';
+import Wishlist from './pages/wishlist';
+import UserProfile from './pages/UserProfile';
 function App() {
 
   
@@ -18,6 +21,9 @@ function App() {
     <Route path="/" element={<Hero />}/>
     <Route path="/login" element={<Login />}/>
     <Route path="/register" element={<Register />}/>
+    <Route path ="/cart" element={<Cart />}/>
+    <Route path="/wishlist" element={<Wishlist />}/>
+    <Route path="/UserProfile" element={<UserProfile />}/>
 </Routes> 
     <Footer/>
 

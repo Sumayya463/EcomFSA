@@ -33,7 +33,7 @@ export default function Navbar() {
 
           {/* Cart Icon */}
           <div className="relative cursor-pointer ">
-            <ShoppingCart className="w-5 h-5" />
+            <Link to="/cart"><ShoppingCart className="w-5 h-5" /></Link>
             <span className="absolute -top-2 -right-2 bg-gray-800 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
               3
             </span>
